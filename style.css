@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display:flex;
+}
+
+#left{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    background-color: #E4DCD5;
+    
+}
+#left #text-center{
+    position: absolute;
+    top:40%;
+    left:40%;
+    transform: translate(-50%,-50%);
+
+}
+
+#text-center h1{
+    font-size: 100px;
+    font-weight: 900;
+}
+#text-center p{
+    font-size: 20px;
+    opacity: .6;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#text-center a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+#lnav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+    color: black;
+    font-size : 16px;
+}
+
+#lnavr a{
+    margin-left:20px ;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size : 16px;
+}   
+
+#twitter{
+    color:royalblue;
+}
+
+#lnavr {
+    display: flex;
+    align-items: center;
+}
+#right{
+    width:60%;
+    height: 100%;
+    
+}
+
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+}
+
+#rtopl{
+    width: 50%;
+    height: 100%;
+    background-image: url(Asset/photo-1552010099-5dc86fcfaa38.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+#rtopr{
+    width: 50%;
+    height: 100%;
+    background-image: url(Asset/photo-1557800636-894a64c1696f.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+#rbottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(Asset/photo-1597714026720-8f74c62310ba.avif);
+    background-position: center;
+    background-size: cover;
+}
